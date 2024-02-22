@@ -542,6 +542,10 @@ header
 }
 
 @media (max-width: 767px) {
+  .logo{
+    width: 80px;
+    height: 80px;
+  }
   .header-area .main-nav .logo {
     color: #1e1e1e;
   }
@@ -563,9 +567,9 @@ header
   .header-area .container {
     padding: 0px;
   }
-  .header-area .logo {
+  /* .header-area .logo {
     margin-left: 30px;
-  }
+  } */
   .header-area .menu-trigger {
     display: block !important;
   }
@@ -646,7 +650,10 @@ header
   }
 }
 
-
+.logo{
+  width: 80px;
+  height: 80px;
+}
 /* 
 ---------------------------------------------
 banner
