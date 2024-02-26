@@ -170,6 +170,14 @@ body {
   color: #fff;
 }
 
+section.main-banner{
+  background-image: url(../images/bg.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 340px 0px;
+}
 
 /* 
 ---------------------------------------------
@@ -234,11 +242,11 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #fb5849!important;
+  color: #f5a425!important;
 }
 
 .background-header .nav li a.active {
-  color: #fb5849!important;
+  color: #f5a425!important;
 }
 
 .header-area {
